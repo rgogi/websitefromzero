@@ -1,0 +1,179 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    height: 100%;
+    width:100%;
+}
+
+.topper {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding-right: 8px;
+    margin-top: 3px;
+}
+
+li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    size: 18px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    padding-left: 30px;
+}
+
+.secondFlex {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding-top: 64px;
+    gap: 25px;
+    padding-bottom: 100px;
+}
+
+.inside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bigHeader {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    height: 150px;
+}
+
+.masc {
+    margin-top: 8px;
+}
+
+.headerText {
+    margin-top: -30px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signUp {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    height: 25px;
+}
+
+.signUp a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.males {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.im {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border: 2px solid #1f2937;
+}
+
+.text {
+    padding-top: 8px;
+    line-height: 6px;
+}
+
+.thirdFlex {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    padding-left: 400px;
+    font-size: 20px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+.support {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: #1f2937;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 70px;
+    gap: 100px;
+    align-items: center;
+}
+
+.helper {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe {
+    background-color: red;
+    font-weight: bold;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.subscribe a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.action {
+    font-size: 25px;
+}
+
+.msg {
+    font-size: 15px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    height: 40px;
+    align-items: center;
+}
